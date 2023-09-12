@@ -281,7 +281,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://baobao991112.github.io/2023/08/28/test/">
+    <link itemprop="mainEntityOfPage" href="http://baobao991112.github.io/2023/08/28/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -295,7 +295,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2023/08/28/test/" class="post-title-link" itemprop="url">git常用指令</a>
+            <a href="/2023/08/28/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/" class="post-title-link" itemprop="url">git常用指令</a>
         </h2>
 
         <div class="post-meta">
@@ -312,7 +312,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-08-31 15:51:33" itemprop="dateModified" datetime="2023-08-31T15:51:33+08:00">2023-08-31</time>
+                <time title="修改时间：2023-09-12 16:38:10" itemprop="dateModified" datetime="2023-09-12T16:38:10+08:00">2023-09-12</time>
               </span>
 
           
@@ -326,7 +326,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">合并分支 (将其他的分支的内容更新到当前分支) :</span><br><span class="line">    git merge origin/master  //合并远程的master分支</span><br><span class="line">    git merge 0.2.5  //合并本地的0.2.5分支</span><br><span class="line">清除缓存 (不小心上传了不需要的文件 想重新上传)</span><br><span class="line">    git rm --cached -r .</span><br><span class="line">    git add .</span><br><span class="line">    git commit -m &#x27;xxxx&#x27;</span><br><span class="line">    git pull</span><br><span class="line">    git push</span><br><span class="line">回退版本 (字面意思)</span><br><span class="line">    git log  //查看提交历史及提交的commit_id</span><br><span class="line">    git reset --hard HEAD^  //回退到上个版本</span><br><span class="line">    git reset --hard HEAD~3  //回退到前3次提交之前，以此类推，回退到n次提交之前</span><br><span class="line">    git reset --hard &quot;commit_id&quot;  //退到/进到 指定commit</span><br></pre></td></tr></table></figure>
+          <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">克隆代码仓库 (将仓库代码拉到本地)</span><br><span class="line">    git clone &#x27;xxxxxxxx&#x27;  //仓库地址--可能需要账号密码或者ssh令牌</span><br><span class="line">切换分支</span><br><span class="line">    git checkout &#x27;xxxxx&#x27;  //目标分支</span><br><span class="line">合并分支 (将其他的分支的内容更新到当前分支) :</span><br><span class="line">    git merge origin/master  //合并远程的master分支</span><br><span class="line">    git merge 0.2.5  //合并本地的0.2.5分支</span><br><span class="line">清除缓存 (不小心上传了不需要的文件 想重新上传)</span><br><span class="line">    git rm --cached -r . //记得重新提交</span><br><span class="line">提交代码</span><br><span class="line">    git add .</span><br><span class="line">    git commit -m &#x27;xxxx&#x27;</span><br><span class="line">    git pull  //有冲突记得解决后重新这些步骤</span><br><span class="line">    git push</span><br><span class="line">回退版本 (字面意思)</span><br><span class="line">    git log  //查看提交历史及提交的commit_id</span><br><span class="line">    git reset --hard HEAD^  //回退到上个版本</span><br><span class="line">    git reset --hard HEAD~3  //回退到前3次提交之前，以此类推，回退到n次提交之前</span><br><span class="line">    git reset --hard &quot;commit_id&quot;  //退到/进到 指定commit</span><br></pre></td></tr></table></figure>
 
       
     </div>
